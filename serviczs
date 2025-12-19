@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Nos Services - Mon site IA</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #1e1e2f, #2a2a40);
+      color: #fff;
+      text-align: center;
+      padding: 50px;
+      margin: 0;
+    }
+    nav {
+      margin-bottom: 40px;
+    }
+    nav a {
+      color: #4f7cff;
+      text-decoration: none;
+      margin: 0 15px;
+      font-size: 1.1rem;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    h1 {
+      font-size: 2.2rem;
+      margin-bottom: 10px;
+    }
+    p {
+      opacity: 0.85;
+      max-width: 600px;
+      margin: 0 auto 30px;
+    }
+    .services-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 25px;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    .service-card {
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 12px;
+      padding: 30px;
+      width: 280px;
+      transition: transform 0.3s, background 0.3s;
+    }
+    .service-card:hover {
+      transform: translateY(-5px);
+      background: rgba(255, 255, 255, 0.15);
+    }
+    .service-icon {
+      font-size: 3rem;
+      margin-bottom: 15px;
+    }
+    .service-card h2 {
+      font-size: 1.3rem;
+      margin-bottom: 10px;
+    }
+    .service-card p {
+      font-size: 0.95rem;
+      opacity: 0.8;
+      margin-bottom: 0;
+    }
+    .cta-button {
+      margin-top: 40px;
+      padding: 12px 24px;
+      font-size: 1rem;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      background: #4f7cff;
+      color: #fff;
+      text-decoration: none;
+      display: inline-block;
+    }
+    .cta-button:hover {
+      background: #6b8cff;
+    }
+  </style>
+</head>
+
+<body>
+  <nav>
+    <a href='/'>Accueil</a>
+    <a href='/services'>Services</a>
+    <a href='/apropos'>À propos</a>
+    <a href='/abonnement'>Abonnement</a>
+  </nav>
+
+  <h1>🛠️ Nos Services</h1>
+  <p>Découvrez nos solutions innovantes propulsées par l'intelligence artificielle pour transformer votre entreprise.</p>
+
+  <div class="services-container">
+    <div class="service-card">
+      <div class="service-icon">🤖</div>
+      <h2>Chatbots IA</h2>
+      <p>Des assistants virtuels intelligents disponibles 24h/24 pour répondre à vos clients.</p>
+    </div>
+
+    <div class="service-card">
+      <div class="service-icon">📊</div>
+      <h2>Analyse de données</h2>
+      <p>Exploitez vos données avec nos algorithmes d'apprentissage automatique.</p>
+    </div>
+
+    <div class="service-card">
+      <div class="service-icon">⚡</div>
+      <h2>Automatisation</h2>
+      <p>Automatisez vos processus métier pour gagner en efficacité et réduire les coûts.</p>
+    </div>
+
+    <div class="service-card">
+      <div class="service-icon">🔒</div>
+      <h2>Sécurité IA</h2>
+      <p>Protégez vos systèmes avec nos solutions de détection des menaces en temps réel.</p>
+    </div>
+
+    <div class="service-card">
+      <div class="service-icon">🎯</div>
+      <h2>Marketing intelligent</h2>
+      <p>Optimisez vos campagnes grâce à la personnalisation et au ciblage prédictif.</p>
+    </div>
+
+    <div class="service-card">
+      <div class="service-icon">💬</div>
+      <h2>Support client</h2>
+      <p>Améliorez l'expérience client avec notre plateforme de support augmenté par l'IA.</p>
+    </div>
+  </div>
+
+  <a class='cta-button' href='/'>Retour à l'accueil</a>
+</body>
+</html>
