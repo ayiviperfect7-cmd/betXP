@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>À propos - Mon site IA</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #1e1e2f, #2a2a40);
+      color: #fff;
+      text-align: center;
+      padding: 50px;
+      margin: 0;
+    }
+    nav {
+      margin-bottom: 40px;
+    }
+    nav a {
+      color: #4f7cff;
+      text-decoration: none;
+      margin: 0 15px;
+      font-size: 1.1rem;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    h1 {
+      font-size: 2.2rem;
+      margin-bottom: 10px;
+    }
+    .intro {
+      opacity: 0.85;
+      max-width: 700px;
+      margin: 0 auto 40px;
+      font-size: 1.1rem;
+      line-height: 1.6;
+    }
+    .about-section {
+      max-width: 800px;
+      margin: 0 auto 40px;
+      text-align: left;
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 12px;
+      padding: 30px;
+    }
+    .about-section h2 {
+      font-size: 1.4rem;
+      margin-bottom: 15px;
+      color: #4f7cff;
+    }
+    .about-section p {
+      opacity: 0.85;
+      line-height: 1.7;
+      margin-bottom: 15px;
+    }
+    .values-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 25px;
+      max-width: 900px;
+      margin: 30px auto;
+    }
+    .value-card {
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 12px;
+      padding: 25px;
+      width: 250px;
+      transition: transform 0.3s, background 0.3s;
+    }
+    .value-card:hover {
+      transform: translateY(-5px);
+      background: rgba(255, 255, 255, 0.15);
+    }
+    .value-icon {
+      font-size: 2.5rem;
+      margin-bottom: 15px;
+    }
+    .value-card h3 {
+      font-size: 1.2rem;
+      margin-bottom: 10px;
+    }
+    .value-card p {
+      font-size: 0.95rem;
+      opacity: 0.8;
+      margin: 0;
+    }
+    .cta-button {
+      margin-top: 40px;
+      padding: 12px 24px;
+      font-size: 1rem;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      background: #4f7cff;
+      color: #fff;
+      text-decoration: none;
+      display: inline-block;
+    }
+    .cta-button:hover {
+      background: #6b8cff;
+    }
+  </style>
+</head>
+
+<body>
+  <nav>
+    <a href='/'>Accueil</a>
+    <a href='/services'>Services</a>
+    <a href='/apropos'>À propos</a>
+    <a href='/abonnement'>Abonnement</a>
+  </nav>
+
+  <h1>📖 À propos de nous</h1>
+  <p class="intro">Découvrez qui nous sommes et notre mission pour démocratiser l'intelligence artificielle au service de tous.</p>
+
+  <div class="about-section">
+    <h2>Notre histoire</h2>
+    <p>Fondée par des passionnés d'intelligence artificielle, notre entreprise est née de la conviction que l'IA peut transformer positivement le monde des affaires. Depuis notre création, nous nous efforçons de rendre les technologies d'IA accessibles à toutes les entreprises, quelle que soit leur taille.</p>
+    <p>Notre équipe d'experts combine des années d'expérience en apprentissage automatique, en développement logiciel et en stratégie d'entreprise pour offrir des solutions sur mesure qui répondent aux défis uniques de chaque client.</p>
+  </div>
+
+  <div class="about-section">
+    <h2>Notre mission</h2>
+    <p>Nous croyons que l'intelligence artificielle ne doit pas être réservée aux grandes entreprises. Notre mission est de démocratiser l'accès aux technologies d'IA en proposant des solutions innovantes, abordables et faciles à intégrer.</p>
+    <p>Nous accompagnons nos clients à chaque étape de leur transformation numérique, de la conception à la mise en production, en passant par la formation de leurs équipes.</p>
+  </div>
+
+  <h2 style="margin-top: 50px; font-size: 1.6rem;">Nos valeurs</h2>
+
+  <div class="values-container">
+    <div class="value-card">
+      <div class="value-icon">💡</div>
+      <h3>Innovation</h3>
+      <p>Nous repoussons constamment les limites de la technologie pour offrir des solutions avant-gardistes.</p>
+    </div>
+
+    <div class="value-card">
+      <div class="value-icon">🤝</div>
+      <h3>Collaboration</h3>
+      <p>Nous travaillons main dans la main avec nos clients pour comprendre et répondre à leurs besoins.</p>
+    </div>
+
+    <div class="value-card">
+      <div class="value-icon">🎯</div>
+      <h3>Excellence</h3>
+      <p>Nous visons l'excellence dans tout ce que nous faisons, de la qualité du code à l'expérience client.</p>
+    </div>
+
+    <div class="value-card">
+      <div class="value-icon">🌱</div>
+      <h3>Durabilité</h3>
+      <p>Nous développons des solutions responsables et respectueuses de l'environnement.</p>
+    </div>
+  </div>
+
+  <a class='cta-button' href='/services'>Découvrir nos services</a>
+</body>
+</html>
